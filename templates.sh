@@ -52,9 +52,9 @@ function create_template() {
 #Path to your ssh authorized_keys file
 #Alternatively, use /etc/pve/priv/authorized_keys if you are already authorized
 #on the Proxmox system
-export ssh_keyfile=/root/id_rsa.pub
+export ssh_keyfile=/root/id_ed25519.pub
 #Username to create on VM template
-export username=apalrd
+export username=ansible
 
 #Name of your storage
 export storage=local-zfs
